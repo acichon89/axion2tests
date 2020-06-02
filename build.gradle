@@ -11,10 +11,7 @@ repositories {
 }
 
 scmVersion {
-    branchVersionCreator = [
-            'master': 'simple',
-            'lol2': 'versionWithBranch'
-    ]
+    versionCreator 'versionWithBranch'
 }
 
 dependencies {
